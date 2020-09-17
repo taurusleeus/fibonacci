@@ -19,10 +19,10 @@ func main(){
   
   n := 0
   
-  fmt.Print("Enter the number of terms, start from 2 :")
+  fmt.Print("Enter the number of terms, start from 2 : ")
   fmt.Scanln(&n)
   
-  fmt.Print("Fibonacci series:")
+  fmt.Print("Fibonacci series : ")
   fmt.Println(fib(n))
 
 }
